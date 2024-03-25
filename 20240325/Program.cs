@@ -1,10 +1,10 @@
 ﻿// 輸出星期
-Console.WriteLine($"日 一 二 三 四 五 六");
+Console.WriteLine($"日\t一\t二\t三\t四\t五\t六");
 
 // 填充空白
 for (int space = 1; space <= 5; space = space + 1)
 {
-    Console.Write(" ");
+    Console.Write("\t");
 }
 
 // 輸出月曆內容

@@ -15,4 +15,8 @@ for (int i = 1; i <= 31; i = i + 1)
     {
         Console.WriteLine(); // 每週最後一天要換一行
     }
+    else
+    {
+        Console.Write("\t"); // 不用換行的填充空白
+    }
 }

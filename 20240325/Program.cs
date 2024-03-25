@@ -11,4 +11,8 @@ for (int space = 1; space <= 5; space = space + 1)
 for (int i = 1; i <= 31; i = i + 1)
 {
     Console.Write(i);
+    if ((5 + i) % 7 == 0)
+    {
+        Console.WriteLine(); // 每週最後一天要換一行
+    }
 }

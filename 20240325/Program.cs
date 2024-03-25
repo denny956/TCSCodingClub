@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 輸出星期
+Console.WriteLine($"日 一 二 三 四 五 六");
